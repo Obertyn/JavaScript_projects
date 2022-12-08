@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+     <head>
+          <meta charset="UTF-8" />
+		  <link rel="stylesheet" href="../TicTacToe/mystyle.css">
+          <title>Tic Tac Toe</title>
+     </head>
+     <body>
+		<center>
+		<input type="image" src="0\1.bmp" id="01" class="image1" />
+		<input type="image" src="0\2.bmp" id="02" class="image1" />
+		<input type="image" src="0\3.bmp" id="03" class="image1" />
+		<br /><br />
+		<input type="image" src="0\4.bmp" id="04" class="image1" />
+		<input type="image" src="0\5.bmp" id="05" class="image1" />
+		<input type="image" src="0\6.bmp" id="06" class="image1" />
+		<br /><br />
+		<input type="image" src="0\7.bmp" id="07" class="image1" />
+		<input type="image" src="0\8.bmp" id="08" class="image1" />
+		<input type="image" src="0\9.bmp" id="09" class="image1" />
+		<br /><br />
+		<br /><br />
+		</center>
+			<form>
+			  <fieldset>
+				<legend>Choose a game mode:</legend>
+				<div>
+				  <input type="radio" id="contactChoice1" name="contact" value="1" checked="checked"/>
+				  <label for="contactChoice1">Player vs Player</label>
+				  <input type="radio" id="contactChoice2" name="contact" value="2" />
+				  <label for="contactChoice2">Player vs AI (Player start, easy)</label>
+				  <input type="radio" id="contactChoice3" name="contact" value="3" />
+				  <label for="contactChoice3">Player vs AI (AI start, easy)</label>
+				  <input type="radio" id="contactChoice4" name="contact" value="4" />
+				  <label for="contactChoice4">Player vs AI (Player start, normal)</label>
+				  <input type="radio" id="contactChoice5" name="contact" value="5" />
+				  <label for="contactChoice5">Player vs AI (AI start, normal)</label>
+				  <br /><br />
+				  <center><button type="submit" class="button1" >New game</button></center>
+				</div>
+			  </fieldset>
+			</form>
+			<pre id="log"></pre>
+		<center><h2 id="win"></h2></center>
+		<script type="text/javascript" src="../TicTacToe/TicTacToe.js"></script>
+     </body>
+</html>
+
